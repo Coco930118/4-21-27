@@ -267,3 +267,27 @@ a:hover { text-decoration: underline; }
 }
 
 .nav-empty { color: var(--text-light); }
+
+/* ── Post meta tags ──────────────────────────────── */
+.post-meta {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.post-tag {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.tag-kyokan  { background: #eaeef5; color: #5a6a82; }
+.tag-hozon   { background: #e8f0e8; color: #4a6a4a; }
+.tag-henshin { background: #f5ede8; color: #825a4a; }
+.tag-note    { background: #f0ece8; color: #7a6855; }
+.tag-cold    { background: #f0f0f0; color: #888; }
+.tag-muddy   { background: #f5ede0; color: #9a7a55; }
